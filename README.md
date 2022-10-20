@@ -1,7 +1,7 @@
 # PythonEPSI
 Exercices and learning Python with EPSI's learning program
 
-# Exercice 1
+# Exercices
 
 001 - Déclarer des variables
 •    Notions abordées : les variables.
@@ -12,3 +12,9 @@ La variable 'majeur' qui doit contenir un boolean vrai.
 La variable 'compte_en_banque' qui doit contenir le nombre décimal 20135,384.
 La variable 'amis' qui doit contenir une liste contenant trois chaînes de caractères : Marie, Julien et Adrien.
 La variable 'parents' qui doit contenir un tuple contenant deux chaînes de caractères : Marc et Caroline.
+
+002 - Erreur déclaration variable
+•    Notions abordées : les variables.
+Une erreur s'est glissée dans la déclaration de la variable site_web, à vous de la trouver et de la corriger pour que le script affiche le nom du site web.
+site_web = "voila"
+print(site_web)
