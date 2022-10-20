@@ -185,3 +185,7 @@ countOccurencesofA()
 
 liste = [1, 2, 3, 4, 5, 6, 7, 8]
 print(liste[::2])
+
+# mécanimes de prédiction inspiré d'un réseau de neuronne ? IA
+# développement d'un bot
+# prédiction statistique d'un ou plusieurs jeux de hasards
