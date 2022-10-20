@@ -1,3 +1,4 @@
+import random
 from math import *
 
 # #Exo1
@@ -143,3 +144,38 @@ def pairlist():
 
 
 pairlist()
+
+
+def generateDice():
+    length = 0
+    result = 0
+    while length < 10:
+        result = random.randrange(1, 6)
+        length = length + 1
+
+    print(result)
+
+
+generateDice()
+
+
+# Compter le nombre d'occurences d'une lettre dans une chaine, lowercase and uppercase
+
+def countOccurencesofA():
+    lettre_a_chercher = "a"
+    phrase = "voila les amis. Alors ça va ?"
+    counter = 0
+
+    for lettre_a_chercher in phrase:
+        counter = phrase.count(lettre_a_chercher)
+
+    for lettre_a_chercher in phrase:
+        if lettre_a_chercher.islower():
+            lettre_a_chercher.upper()
+            counter = phrase.count(lettre_a_chercher)
+
+    print(counter)
+
+# EXTENSION : Afficher la lettre la plus fréquente d'une chaîne
+# EXTENSION 2 : Ajouter dans une chaîne un caractère entre chaque caractère de la chaîne, par exemple la lettre a
+
