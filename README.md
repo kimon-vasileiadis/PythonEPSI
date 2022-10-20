@@ -18,3 +18,13 @@ La variable 'parents' qui doit contenir un tuple contenant deux chaînes de cara
 Une erreur s'est glissée dans la déclaration de la variable site_web, à vous de la trouver et de la corriger pour que le script affiche le nom du site web.
 site_web = "voila"
 print(site_web)
+
+code a corriger pour le 003
+nombre = 15
+print("Le nombre est " + nombre)
+
+005 Dans cet exercice, nous allons utiliser les nouvelles fonctionnalités de Python 3, afin de printer les 3 variables a, b et c, séparées par un symbole d'addition (+).
+Votre script doit donc afficher : 2 + 6 + 3.
+a = 2
+b = 6
+c = 3
