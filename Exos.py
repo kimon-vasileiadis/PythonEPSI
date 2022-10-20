@@ -1,3 +1,5 @@
+from math import *
+
 # #Exo1
 #
 # prenom = "Pierre"
@@ -36,33 +38,78 @@
 
 # #Exo 6
 
-liste = range(3)
-list2 = range(5)
-
-print(list(list2))
-
-# Exo7
-
-prenom = "Pierre"
-
-if type(prenom) == str:
-    isString = True
-    print(prenom)
-else:
-    isString = False
-    print("Nope :( ")
-
-prenom2 = 0
-if isinstance(prenom2, str):
-    print("C'est une chaîne !")
-else:
-    print(prenom2)
+# liste = range(3)
+# list2 = range(5)
+#
+# print(list(list2))
+#
+# # Exo7
+#
+# prenom = "Pierre"
+#
+# if type(prenom) == str:
+#     isString = True
+#     print(prenom)
+# else:
+#     isString = False
+#     print("Nope :( ")
+#
+# prenom2 = 0
+# if isinstance(prenom2, str):
+#     print("C'est une chaîne !")
+# else:
+#     print(prenom2)
 
 # créer un programme qui permet à l'utilisateur de choisr le type à tester
 
+
 # Exo 8
 
-phrase = "Bonjour les amis"
-nouvelle_phrase = phrase.replace("Bonjour", "Salut")
+# phrase = "Bonjour les amis"
+# nouvelle_phrase = phrase.replace("Bonjour", "Salut")
+#
+# print(nouvelle_phrase)
 
-print(nouvelle_phrase)
+# programme qui demande a l'utilisateur le nombre d'occurence qu'il veut retirer et demander ce qu'il veut enlever
+
+# string = "que veux tu retirer ?"
+# x = input(string)
+# while x in string:
+#     string.removeprefix(string)
+#     print(string)
+
+
+# liste7 = ["pomme", "poire", "cerise"]
+# liste8 = ("orange", "cerise", "fraise")
+# liste7.extend(liste8)
+#
+# for x in liste8:
+#     print(x)
+#
+# for x in range(len(liste8)):
+#     print(liste8[x])
+#
+# x = 0
+# while x < len(liste8):
+#     print(liste8[x])
+#     x = x + 1
+
+# remettre en ordre alphabétique un chaîne de caractère
+
+chaine = "pomme, abricot, cerise, fraise, orange"
+chaine_liste = chaine.split(", ")
+chaine_liste.sort()
+chaine_en_ordre = ", ".join(chaine_liste)
+print(chaine_en_ordre)
+
+
+# créer un programme qui nous permet d'afficher le volume d'un sphère
+
+def spherevolume(v):
+    rayon = float(input("rayon :"))
+    v = (4 * pi / 3) * (rayon ** 3)
+    print(v)
+
+
+volume = 0
+spherevolume(volume)

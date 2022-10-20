@@ -87,4 +87,53 @@ ici est mon commentaire
 # e = "Salut, vous"
 # print(e.split(","))
 
+# chaine = "Alors qui a vu la série"
+# print(chaine)
+#
+# chaine2 = "Salut\nLes gens"
+# print(chaine2)
+#
+# chaine3 = "Vincent12"
+# x = chaine3.isalpha()
+# print(x)
+#
+# print(bool("Yo"))
+# print(bool(10))
+# print(bool(False))
+# print(bool(None))
+# print(bool(()))
+#
+#
+# def mafonction():
+#     return True
+#
+#
+# print(mafonction())
+#
+# x = 500
+# print(isinstance(x, int))
+
+liste5 = list(("pomme", "fraise", "poire"))
+print(liste5)
+
+liste2 =["pomme", "poire", "cerise", "banane", "framboise"]
+liste2[1:3] = ["fraise", "ananas"]
+print(liste2)
+
+liste3 = ["pomme", "poire", "cerise"]
+liste3[1:2] = ["fraise", "ananas"]
+print(liste3)
+
+liste3 = ["pomme", "poire", "cerise"]
+liste5.insert(2, "fraise")
+print(liste5)
+
+liste6 = ["pomme", "poire", "cerise"]
+liste6.append("fraise")
+print(liste6)
+
+liste7 = ["pomme", "poire", "cerise"]
+liste8 = ("orange", "cerise", "fraise")
+liste7.extend(liste8)
+print(liste8)
 
