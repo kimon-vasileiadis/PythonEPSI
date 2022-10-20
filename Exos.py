@@ -96,20 +96,50 @@ from math import *
 
 # remettre en ordre alphabétique un chaîne de caractère
 
-chaine = "pomme, abricot, cerise, fraise, orange"
-chaine_liste = chaine.split(", ")
-chaine_liste.sort()
-chaine_en_ordre = ", ".join(chaine_liste)
-print(chaine_en_ordre)
-
-
+# chaine = "pomme, abricot, cerise, fraise, orange"
+# chaine_liste = chaine.split(", ")
+# chaine_liste.sort()
+# chaine_en_ordre = ", ".join(chaine_liste)
+# print(chaine_en_ordre)
+#
+#
 # créer un programme qui nous permet d'afficher le volume d'un sphère
+#
+# def spherevolume():
+#     rayon = float(input("rayon :"))
+#     v = (4 * pi / 3) * (rayon ** 3)
+#     print(v)
+#
+#
+# volume = 0
+# spherevolume()
 
-def spherevolume(v):
-    rayon = float(input("rayon :"))
-    v = (4 * pi / 3) * (rayon ** 3)
-    print(v)
+""" liste des nombres de 10 a 100"""
 
 
-volume = 0
-spherevolume(volume)
+def intlist():
+    liste = []
+    i = 10
+    while len(liste) != 91:
+        liste.append(i)
+        i = i + 1
+    print(liste)
+
+
+intlist()
+
+""" liste des nombres pairs de 1 a 200"""
+
+
+def pairlist():
+    liste = []
+    i = 1
+    while len(liste) != 100:
+        if i % 2 == 0:
+            liste.append(i)
+        i = i + 1
+
+    print(liste)
+
+
+pairlist()
