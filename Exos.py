@@ -60,4 +60,9 @@ else:
 
 # créer un programme qui permet à l'utilisateur de choisr le type à tester
 
+# Exo 8
 
+phrase = "Bonjour les amis"
+nouvelle_phrase = phrase.replace("Bonjour", "Salut")
+
+print(nouvelle_phrase)
