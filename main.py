@@ -49,3 +49,42 @@ ici est mon commentaire
 # mafonction()
 # print("Salut" + x)
 
+# y = 12E4
+# print(y)
+# z = -50.7e100
+# print(z)
+
+# import random
+# print(random.randrange(1, 10))
+#
+# a = "Bonjour"
+# print(a[2])
+#
+# for x in "Salut":
+#     print(x)
+#
+# x = "Voila python"
+# print(len(x))
+
+# chaine = "Voila est ce que python"
+#
+# if "Python" not in chaine:
+#     print("Trouvé")
+# else:
+#     print("Raté")
+
+# b = "Salut les_amis"
+# print(b[-5:-2])
+# print(b.upper())
+# print(b.lower())
+#
+# c = " Salut les amis "
+# print(c.strip())
+#
+# d = "Salut Python Salut"
+# print(d.replace("u", "1", 2))
+
+# e = "Salut, vous"
+# print(e.split(","))
+
+
