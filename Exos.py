@@ -118,45 +118,45 @@ from math import *
 """ liste des nombres de 10 a 100"""
 
 
-def intlist():
-    liste = []
-    i = 10
-    while len(liste) != 91:
-        liste.append(i)
-        i = i + 1
-    print(liste)
-
-
-intlist()
-
-""" liste des nombres pairs de 1 a 200"""
-
-
-def pairlist():
-    liste = []
-    i = 1
-    while len(liste) != 100:
-        if i % 2 == 0:
-            liste.append(i)
-        i = i + 1
-
-    print(liste)
-
-
-pairlist()
-
-
-def generateDice():
-    length = 0
-    result = 0
-    while length < 10:
-        result = random.randrange(1, 6)
-        length = length + 1
-
-    print(result)
-
-
-generateDice()
+# def intlist():
+#     liste = []
+#     i = 10
+#     while len(liste) != 91:
+#         liste.append(i)
+#         i = i + 1
+#     print(liste)
+#
+#
+# intlist()
+#
+# """ liste des nombres pairs de 1 a 200"""
+#
+#
+# def pairlist():
+#     liste = []
+#     i = 1
+#     while len(liste) != 100:
+#         if i % 2 == 0:
+#             liste.append(i)
+#         i = i + 1
+#
+#     print(liste)
+#
+#
+# pairlist()
+#
+#
+# def generateDice():
+#     length = 0
+#     result = 0
+#     while length < 10:
+#         result = random.randrange(1, 6)
+#         length = length + 1
+#
+#     print(result)
+#
+#
+# generateDice()
 
 
 # Compter le nombre d'occurences d'une lettre dans une chaine, lowercase and uppercase
@@ -165,17 +165,23 @@ def countOccurencesofA():
     lettre_a_chercher = "a"
     phrase = "voila les amis. Alors ça va ?"
     counter = 0
+    counter2 = 0
 
     for lettre_a_chercher in phrase:
         counter = phrase.count(lettre_a_chercher)
+        upper = lettre_a_chercher.upper()
+        counter2 = phrase.count(upper)
 
-    for lettre_a_chercher in phrase:
-        if lettre_a_chercher.islower():
-            lettre_a_chercher.upper()
-            counter = phrase.count(lettre_a_chercher)
+    print(counter + counter2)
 
-    print(counter)
+
+countOccurencesofA()
 
 # EXTENSION : Afficher la lettre la plus fréquente d'une chaîne
 # EXTENSION 2 : Ajouter dans une chaîne un caractère entre chaque caractère de la chaîne, par exemple la lettre a
 
+
+# récupérer un élément sur deux de cette liste
+
+liste = [1, 2, 3, 4, 5, 6, 7, 8]
+print(liste[::2])
